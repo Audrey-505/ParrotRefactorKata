@@ -7,12 +7,12 @@ namespace ParrotRefactoringKata
     public interface IParrot
     {
         double GetSpeed();
-        string NewGetCry();
+        string GetCry();
     }
 
     public class European : IParrot
     {
-        public string NewGetCry()
+        public string GetCry()
         {
             return "Sqoork!";
         }
@@ -37,7 +37,7 @@ namespace ParrotRefactoringKata
             _numberOfCoconuts = numberOfCoconuts;
         }
 
-        public string NewGetCry()
+        public string GetCry()
         {
             return "Sqaark!";
         }
@@ -69,7 +69,7 @@ namespace ParrotRefactoringKata
             _voltage = voltage;
         }
 
-        public string NewGetCry()
+        public string GetCry()
         {
             return _voltage > 0 ? "Bzzzzzz" : "...";
         }

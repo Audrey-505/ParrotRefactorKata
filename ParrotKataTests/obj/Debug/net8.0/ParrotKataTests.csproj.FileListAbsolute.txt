@@ -99,3 +99,4 @@
 /Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotKataTests/obj/Debug/net8.0/ParrotKataTests.pdb
 /Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotKataTests/obj/Debug/net8.0/ParrotKataTests.genruntimeconfig.cache
 /Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotKataTests/obj/Debug/net8.0/ref/ParrotKataTests.dll
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotKataTests/obj/Debug/net8.0/ParrotKataTests.sourcelink.json

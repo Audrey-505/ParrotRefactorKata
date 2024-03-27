@@ -9,3 +9,4 @@
 /Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/refint/ParrotRefactoringKata.dll
 /Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.pdb
 /Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ref/ParrotRefactoringKata.dll
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.sourcelink.json
