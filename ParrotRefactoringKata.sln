@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrotRefactoringKata", "ParrotRefactoringKata\ParrotRefactoringKata.csproj", "{EFCB8706-5803-4340-B951-2AE9D2A8F4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrotKataTests", "ParrotKataTests\ParrotKataTests.csproj", "{42776428-3A96-4E92-99C1-F0F2BD085DD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFCB8706-5803-4340-B951-2AE9D2A8F4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCB8706-5803-4340-B951-2AE9D2A8F4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCB8706-5803-4340-B951-2AE9D2A8F4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCB8706-5803-4340-B951-2AE9D2A8F4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42776428-3A96-4E92-99C1-F0F2BD085DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42776428-3A96-4E92-99C1-F0F2BD085DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42776428-3A96-4E92-99C1-F0F2BD085DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42776428-3A96-4E92-99C1-F0F2BD085DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B11A49-3200-4B87-A31C-DB3EF2DA0CE2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/bin/Debug/net8.0/ParrotRefactoringKata.deps.json
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/bin/Debug/net8.0/ParrotRefactoringKata.dll
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/bin/Debug/net8.0/ParrotRefactoringKata.pdb
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.GeneratedMSBuildEditorConfig.editorconfig
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.AssemblyInfoInputs.cache
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.AssemblyInfo.cs
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.csproj.CoreCompileInputs.cache
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.dll
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/refint/ParrotRefactoringKata.dll
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ParrotRefactoringKata.pdb
+/Users/audreyalcantara/Documents/Katas/ParrotRefactoringKata/ParrotRefactoringKata/obj/Debug/net8.0/ref/ParrotRefactoringKata.dll
