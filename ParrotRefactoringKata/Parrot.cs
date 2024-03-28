@@ -77,10 +77,10 @@ namespace ParrotRefactoringKata
 
         public double GetSpeed()
         {
-            return IsNailed ? 0 : GetBaseSpeed(Voltage);
+            return IsNailed ? 0 : GetVoltageBaseSpeed(Voltage);
         }
 
-        private double GetBaseSpeed(double voltage)
+        private double GetVoltageBaseSpeed(double voltage)
         {
             return Math.Min(24.0, voltage * GetBaseSpeed());
         }
