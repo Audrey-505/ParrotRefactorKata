@@ -8,6 +8,7 @@ namespace ParrotRefactoringKata
     {
         double GetSpeed();
         string GetCry();
+        double GetBaseSpeed();
     }
 
     public class EuropeanParrot : IParrot
@@ -22,19 +23,19 @@ namespace ParrotRefactoringKata
             return GetBaseSpeed();
         }
 
-        public static double GetBaseSpeed()
+        public double GetBaseSpeed()
         {
-            return 12;
+            return 12.0;
         }
     }
 
     public class AfricanParrot : IParrot
     {
-        private readonly int _numberOfCoconuts;
+        private readonly int NumberOfCoconuts;
 
         public AfricanParrot(int numberOfCoconuts)
         {
-            _numberOfCoconuts = numberOfCoconuts;
+            NumberOfCoconuts = numberOfCoconuts;
         }
 
         public string GetCry()
@@ -44,10 +45,10 @@ namespace ParrotRefactoringKata
 
         public double GetSpeed()
         {
-            return Math.Max(0, GetBaseSpeed() - GetLoadFactor() * _numberOfCoconuts);
+            return Math.Max(0, GetBaseSpeed() - GetLoadFactor() * NumberOfCoconuts);
         }
 
-        private static double GetBaseSpeed()
+        public double GetBaseSpeed()
         {
             return 12.0;
         }
@@ -60,31 +61,31 @@ namespace ParrotRefactoringKata
 
     public class NorwegianParrot : IParrot
     {
-        private readonly bool _isNailed;
-        private readonly double _voltage;
+        private readonly bool IsNailed;
+        private readonly double Voltage;
 
         public NorwegianParrot(bool isNailed, double voltage)
         {
-            _isNailed = isNailed;
-            _voltage = voltage;
+            IsNailed = isNailed;
+            Voltage = voltage;
         }
 
         public string GetCry()
         {
-            return _voltage > 0 ? "Bzzzzzz" : "...";
+            return Voltage > 0 ? "Bzzzzzz" : "...";
         }
 
         public double GetSpeed()
         {
-            return _isNailed ? 0 : GetBaseSpeed(_voltage);
+            return IsNailed ? 0 : GetBaseSpeed(Voltage);
         }
 
-        private static double GetBaseSpeed(double voltage)
+        private double GetBaseSpeed(double voltage)
         {
             return Math.Min(24.0, voltage * GetBaseSpeed());
         }
 
-        private static double GetBaseSpeed()
+        public double GetBaseSpeed()
         {
             return 12.0;
         }
