@@ -10,7 +10,7 @@ namespace ParrotRefactoringKata
         string GetCry();
     }
 
-    public class European : IParrot
+    public class EuropeanParrot : IParrot
     {
         public string GetCry()
         {
@@ -28,11 +28,11 @@ namespace ParrotRefactoringKata
         }
     }
 
-    public class African : IParrot
+    public class AfricanParrot : IParrot
     {
         private readonly int _numberOfCoconuts;
 
-        public African(int numberOfCoconuts)
+        public AfricanParrot(int numberOfCoconuts)
         {
             _numberOfCoconuts = numberOfCoconuts;
         }
@@ -58,12 +58,12 @@ namespace ParrotRefactoringKata
         }
     }
 
-    public class Norwegian : IParrot
+    public class NorwegianParrot : IParrot
     {
         private readonly bool _isNailed;
         private readonly double _voltage;
 
-        public Norwegian(bool isNailed, double voltage)
+        public NorwegianParrot(bool isNailed, double voltage)
         {
             _isNailed = isNailed;
             _voltage = voltage;

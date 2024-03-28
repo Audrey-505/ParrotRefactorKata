@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParrotRefactoringKata")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+777d5151e132f997481506c83f150e1d334a0b57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a11c7ff7f2e679086bd4cf4c91ef5329485a7dc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParrotRefactoringKata")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParrotRefactoringKata")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
